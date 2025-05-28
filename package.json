@@ -1,0 +1,25 @@
+{
+  "name": "playwright_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all-tests": "npx playwright test --workers=2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ini998/playwright_task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ini998/playwright_task/issues"
+  },
+  "homepage": "https://github.com/ini998/playwright_task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  }
+}
